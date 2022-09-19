@@ -1,4 +1,4 @@
-import {MainLayout} from "../components/MainLayout";
+import {MainLayout} from "../component/MainLayout";
 import {useEffect, useState} from "react";
 import Link from "next/link";
 import {PostLink} from "../component/PostLink";

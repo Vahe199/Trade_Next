@@ -23,12 +23,13 @@ export const MainLayout = ({children,title='Nex App'}) => {
             </main>
             <style jsx>{`
 nav{
+display: none;
 position: fixed;
 height: 60px;
 left:0;
 right: 0;
 top: 0;
-display: flex;
+//display: flex;
 align-items: center;
 justify-content: space-between;
 background: #0070f3;
@@ -45,6 +46,7 @@ font-weight: bold;
 main{
 margin-top: 60px;
 padding: 1rem;
+min-height: 80vh;
 }
             
 `}</style>

@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import useSWR from 'swr'
-import {MainLayout} from "../components/MainLayout";
+import {MainLayout} from "../component/MainLayout";
 
 const fetcher = async ()=>{
     const response = await fetch('http://localhost:4200/dashboard')

@@ -1,5 +1,5 @@
 import {useRouter} from "next/router";
-import {MainLayout} from "../../components/MainLayout";
+import {MainLayout} from "../../component/MainLayout";
 import Link from "next/link";
 
 export default function Post({post}){

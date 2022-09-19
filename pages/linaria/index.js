@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "../../components/Header";
-import Hero from "../../components/Hero";
-import {Page} from "../../components/elements/Example";
+import Header from "../../component/Header";
+import Hero from "../../component/Hero";
+import {Page} from "../../component/elements/Example";
 import {cx} from "@linaria/core";
 
 

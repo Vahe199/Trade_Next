@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "mock": "json-server -w db.json -p 4200 -d 450"
+    "mock": "json-server -w db.json -p 4200 -d 450",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@linaria/babel-preset": "^4.2.0",
@@ -24,6 +25,8 @@
   "devDependencies": {
     "eslint": "8.23.0",
     "eslint-config-next": "12.3.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.0",
     "sass": "^1.54.9"
   }
 }

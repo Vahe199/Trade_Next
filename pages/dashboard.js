@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {MainLayout} from "../components/MainLayout";
+import {MainLayout} from "../component/MainLayout";
 
 export default function Dashboard(){
     const [isLoading, setIsLoading] = useState(true)

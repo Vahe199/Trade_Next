@@ -8,11 +8,8 @@ import {Heading} from "./elements/Heading";
 import {Button} from "./elements/Button";
 import {RightColumn} from "./elements/RightColumn";
 import {CodeSample} from "./elements/CodeSample";
+import {Description} from "./elements/Description";
 
-
-function Description(props) {
-    return null;
-}
 
 export default function Hero() {
     return (
@@ -27,7 +24,7 @@ export default function Hero() {
                             to CSS variables automatically. Great productivity with source
                             maps and linting support.
                         </Description>
-                        <Button
+                        <Button cursor={"pointer"}
                             as="a"
                             href="https://github.com/callstack/linaria#installation"
                         >

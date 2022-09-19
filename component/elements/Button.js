@@ -14,7 +14,7 @@ export const Button = styled.button`
   text-decoration: none;
   box-shadow: inset 0 0 0 2px currentColor, 1px 1px 1px rgba(0, 0, 0, 0.08);
   border-radius: 30px;
-  cursor: pointer;
+  cursor: ${({cursor})=>cursor};
   transition: color 200ms, background 200ms;
   &:hover {
     color: #d2356d;

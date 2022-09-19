@@ -1,6 +1,6 @@
 import Link from "next/link";
 import classes from "../styles/error.module.scss"
-import {MainLayout} from "../components/MainLayout";
+import {MainLayout} from "../component/MainLayout";
 export default function ErrorPage(){
     return(
         <MainLayout>

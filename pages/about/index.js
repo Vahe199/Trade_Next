@@ -1,7 +1,8 @@
 import Router from "next/router";
-import {MainLayout} from "../../components/MainLayout";
+import {MainLayout} from "../../component/MainLayout";
+import Footers from "../../component/Layout/Footers";
 
-export default function About() {
+ function About() {
     const linkClickHandle = (page) => {
         Router.push(page)
     }
@@ -10,4 +11,13 @@ export default function About() {
         <button onClick={() => linkClickHandle('/')}>Go back to home</button>
         <button onClick={() => linkClickHandle('/posts')}>Go back to Posts</button>
     </MainLayout>)
+}
+export default About
+About.getLayout = function PageLayout(page) {
+    return(
+        <>
+            {page}
+            <Footers/>
+        </>
+    )
 }
